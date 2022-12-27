@@ -1,0 +1,148 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - halo
+    - hai
+    - hay
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+    - selamat sore
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - terimakasih
+    - have a nice day
+    - thankyou
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - saya ingin bertanya tentang stunting dan genetik
+    - ingin tau lebih banyak tentang stunting dan genetik 
+    - ingin mengetahui lebih banyak tentang stunting dan genetik 
+    - mau tanya dong seputar stanting dan genetik 
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: pertanyaan_kesatu
+  examples: |
+    - apa perbedaan antara stunting dan genetik?
+    - apa yang membedakan antara stunting dan genetik?
+    - bagaimana cara membedakan stunting dan genetik?
+- intent: pertanyaan_kedua
+  examples: |
+    - seperti apa anjuran nutrisi anak diatas 2 tahun supaya tidak stunting dan tidak anemia defisiensi besi?
+    - nutrisi apa saja supaya anak diatas 2 tahun tidak stunting?
+- intent: pertanyaan_ketiga
+  examples: |
+    - apakah stunting setelah usia 2 tahun(sudah lewat 1000 hari pertama kehidupan) sama sekali tidak bisa diperbaiki?
+    - apakah stunting pada anak diatas 2 tahun sama sekali tidak dapat diperbaiki?
+- intent: pertanyaan_keempat
+  examples: |
+    - apakah vitamin/suplemen/minyak ikan dapat mencegah stunting?
+    - apa saja yang dapat mencegah stunting?
+- intent: pertanyaan_kelima
+  examples: |
+    - adakah cara cepat/ tips mencegah stunting?
+    - apa saja cara praktis mencegah stunting?
+- intent: pertanyaan_keenam
+  examples: |
+    - perlukah menambah sufor saat MPASI jika kenaikan berat badan melambat?
+    - untuk menaikkan berat badan yang melambat apakah diperlukan menambah sufor saat MPASI?
+- intent: pertanyaan_ketujuh
+  examples: |
+    - kasus bayi pada saat usia kurang dari 6 bulan dan kenaikan berat badan melambat (kurva pertumbuhan melandai)
+    - bagaimana cara agar bayi kurang dari 6 bulan memiliki berat badan tidak melambat?
+- intent: pertanyaan_kedelapan
+  examples: |
+    - kasus bayi pada usia 6-12 bulan mengalami pertumbuhan melambat
+    - bagaimana agar bayi pada usia 6-12 tahun tidak mengalami pertumbuhan yang melambat?
+- intent: pertanyaan_kesembilan
+  examples: |
+    - kasus bayi pada saat usia 12-24 bulan dan kenaikan berat badan melambat
+    - bagaimana agar bayi pada usia 12-24 tahun tidak mengalami pertumbuhan yang melambat?
+- intent: pertanyaan_kesepuluh
+  examples: |
+    - bagaimana menilai pertumbuhan dan perkembangan bayi prematur?
+    - bagaimana cara menilai pertumbuhan dan perkembangan bayi prematur?
+- intent: pertanyaan_kesebelas
+  examples: |
+    - pertumbuhan BB melambat dan bahkan cenderung tidak naik, apakah stunting?
+    - apakah stunting dilihat dari pertumbuhan BB melambat dan bahkan cenderung tidak naik?
+- intent: pertanyaan_keduabelas
+  examples: |
+    - pemberian zat besi pada anak-anak dan remaja sebaiknya bagaimana?
+    - bagaimana cara yang terbaik untuk memberikan zat besi pada anak-anak dan remaja?
+- intent: pertanyaan_ketigabelas
+  examples: |
+    - bagaimana pemberian zat besi pada bayi di bawah 12 bulan?
+    - bagaimana cara yang terbaik untuk memberikan zat besi pada bayi dibawah 12 bulan?
+- intent: pertanyaan_keempatbelas
+  examples: |
+    - bayi menyusui 30-40 menit, bagaimana tips supaya bayi kenyang 10-15 menit?
+    - bagaimana cara agar bayi kenyang 10-15 menit?
+- intent: pertanyaan_kelimabelas
+  examples: |
+    - aturan MPASI sangat keliru misalnya banyak karbo, gorengan, terlalu banyak sufor, namun berat badan naik bagus dan kurva pertumbuhan baik, apakah ini berbahaya?
+    - apakah berbahaya jika aturan MPASI banyak karbo, gorengan, terlalu banyak sufor tetapi berat badan naik bagus dan kurva pertumbuhan baik?
+- intent: pertanyaan_keenambelas
+  examples: |
+    - anak gagal tumbuh sebelum usia 6 bulan, dan dianjurkan pemberian sufor, bagaimana manajemen sufor?
+    - bagaimana manajemen sufor yang baik agar anak tidak gagal tumbuh sebelum usia 6 bulan?
+- intent: pertanyaan_ketujuhbelas
+  examples: |
+    - ibu hamil defisiensi besi, bagaimana mengatasinya?
+    - bagaimana cara mengatasi ibu hamil yang defisiensi besi?

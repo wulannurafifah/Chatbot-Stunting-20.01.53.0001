@@ -1,0 +1,153 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - pertanyaan_kesatu
+  - pertanyaan_kedua
+  - pertanyaan_ketiga
+  - pertanyaan_keempat
+  - pertanyaan_kelima
+  - pertanyaan_keenam
+  - pertanyaan_ketujuh
+  - pertanyaan_kedelapan
+  - pertanyaan_kesembilan
+  - pertanyaan_kesepuluh
+  - pertanyaan_kesebelas
+  - pertanyaan_keduabelas
+  - pertanyaan_ketigabelas
+  - pertanyaan_keempatbelas
+  - pertanyaan_kelimabelas
+  - pertanyaan_keenambelas 
+  - pertanyaan_ketujuhbelas
+  
+
+responses:
+  utter_greet:
+  - text: "Haiii!!! Selamat Datang di Chatbot Seputar Stunting atau Genetik !"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Iyaa, Silahkan"
+
+  utter_goodbye:
+  - text: "Terimakasih!! Semoga Membantu dan mohon maaf apabila ada kesalahan:)
+\n\n Dibuat oleh Wulan Nur Afifah(20.01.53.0001)"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_pertanyaan_kesatu:
+  - text: "Stunting adalah keadaan pendek yang khas disebabkan oleh gangguan nutrisi,
+\n\ninfeksi berulang yang tidak tertangani dalam jangka waktu yang lama."
+
+  utter_pertanyaan_kedua:
+  - text: "Nutrisi untuk anak di atas 2 tahun mengikuti aturan MY PLATE 
+\n\nterdiri dari ¼ sayuran, ¼ buah, ¼ karbohidrat (grain) dan ¼ protein.
+\n\nPilih protein hewani dan berbagai jenis sayuran berwarna-warni."
+
+  utter_pertanyaan_ketiga:
+  - text: "Ada dua masalah akibat stunting yaitu pertumbuhan otak dan tinggi 
+\n\nbadan. Pertumbuhan otak sangat pesat terjadi pada 2 tahun pertama sehingga 
+\n\nsetelah usia 2 tahun, tidak bisa diperbaiki. Tinggi badan masih bisa 
+\n\ndiperbaiki dengan berharap pada fase pubertas. Oleh karena itu JANGAN 
+\n\nmengobati stunting tapi lakukanlah PENCEGAHAN. Periode emas yang masih bisa 
+\n\nmemperbaiki stunting adalah sebelum usia 2 tahun, dan hasilnya pun tidak 
+\n\nbisa kembali sempurna, artinya bisa diperbaiki namun optimal."
+
+  utter_pertanyaan_keempat:
+  - text: "Stunting dapat dicegah dengan pemberian nutrisi yang tepat. Nutrisi 
+\n\npembangun tumbuh adalah makronutrien yang terdiri dari Karbohidrat, protein 
+\n\ndan lemak. Sedangkan vitamin dan mineral merupakan mikronutrien yang 
+\n\nmerupakan zat pendukung, bukan pembangun. Vitamin dan mineral terbaik 
+\n\nberasal dari makanan, bukan dari apotek. Tidak ada vitamin dan suplemen 
+\n\npencegah stunting."
+
+  utter_pertanyaan_kelima:
+  - text: "Sayangnya tidak ada cara yang cepat, namun ada cara yang mudah yang harus dilakukan bertahun-tahun. 
+\n\nPencegahan stunting adalah perjalanan yang cukup panjang dari mempersiapkan remaja putri sebelum menempuh kehamilan,
+\n\nperencanaan keluarga dan kehamilan yang matang, menjaga kehamilan yang sehat,  
+\n\nnutrisi saat hamil dan menyusui, manajemen laktasi yang baik, manajemen MPASI yang adekuat, 
+\n\nmencegah penyakit dengan imunisasi yang LENGKAP dan pemantauan pertumbuhan anak terus-menerus. Jadi tidak ada cara cepat."
+
+  utter_pertanyaan_keenam:
+  - text: "Saat usia 6-12 bulan, ada dua manajemen nutrisi yang harus dievaluasi yaitu: 
+\n\nApakah ASI cukup?, Apakah kuantitas dan kualitas MPASI cukup?
+\n\nPemberian sufor hanya dilakukan jika ASI tidak cukup.
+\n\nPemberian ASI pada masa MPASI tetap dominan mencapai 120 ml x Berat badan perharinya."
+
+  utter_pertanyaan_ketujuh:
+  - text: "Pada fase ini, harus evaluasi manajemen laktasi dengan langkah sebagai berikut: 
+\n\nApakah produksi ASI cukup? 
+\n\nCobalah pompa ASI setiap 2-3 jam sekali, dan lihat hasilnya, produksi ASI 
+\n\ndikatakan cukup jika per porsi sekitar 20ml x Berat badan anak dan sekitar 200 ml x berat badan anak per hari."
+
+  utter_pertanyaan_kedelapan:
+  - text: "Pada fase ini harus dievaluasi manajemen laktasi dan manajemen MPASI. 
+\n\nMPASI setidaknya diberikan 3-4x sehari dengan kualitas dominan protein hewani.  
+\n\nMPASI usia 6-9 bulan memiliki tekstur yang lembut, lumat namun tidak encer. Porsi MPASI sekitar 80-120 ml."
+
+  utter_pertanyaan_kesembilan:
+  - text: "Di usia ini, pemberian ASI harus dibatasi sehingga asupan nutrisi dominan didapatkan dari makanan padat. 
+\n\nSangat jarang gangguan pertumbuhan disebabkan oleh penyakit,oleh karena itu evaluasi dahulu manajemen nutrisinya." 
+
+  utter_pertanyaan_kesepuluh:
+  - text: "Pertumbuhan bayi prematur dipantau menggunakan kurva Fenton sampai usia koreksi 10 minggu, 
+\n\nkemudian pindah ke kurva WHO. Sedangkan perkembangan (verbal, motoric halus dan kasar) 
+\n\nmenggunakan usia koreksi sampai usia 2 tahun, lalu dianggap sama dengan anak lain yang seusianya." 
+
+  utter_pertanyaan_kesebelas:
+  - text: "BUKAN, stunting adalah ukuran tinggi badan yaitu pendek dibandingkan dengan anak seusianya. 
+\n\nStunting disebabkan oleh malnutrisi yang berlangsung lama, oleh karena itu
+\n\nberat badan yang tidak naik merupakan awal menuju kepada stunting, ayo segera diperbaiki."
+
+  utter_pertanyaan_keduabelas:
+  - text: "Remaja putri (terutama yang sudah haid) dianjurkan mengkonsumsi suplemen zat besi tiap minggu.
+\n\nPada anak di atas 1 tahun, dianjurkan pemeriksaan zat besi darah sebelum memutuskan pemberian suplemen zat besi.
+\n\nPemeriksaan zat besi meliputi darah lengkap, serum besi, TIBC dan ferritin."
+
+  utter_pertanyaan_ketigabelas:
+  - text: "Pada bayi dengan ASI eksklusif dianjurkan pemberian zat besi usia 4-6 bulan (tanpa pemeriksaan lab terlebih darhulu),
+\n\nuntuk bayi prematur diberikan zat besi sejak usia 1 bulan, lalu setelah usia 6 bulan
+\n\ndianjurkan mendapatkan asupan tinggi zat besi dari MPASI (tinggi protein hewani)."
+
+  utter_pertanyaan_keempatbelas:
+  - text: "Tingkatkan produksi ASI dengan memompa payudara salaam 15-20 menit
+\n\nsetelah menyusu, dan berikan ASI perah kepada bayi setelah menyusu."
+
+  utter_pertanyaan_kelimabelas:
+  - text: "Kurva berat badan merupakan indikator gizi, namun perlu diingat gizi yang seimbang
+\n\nsangat mendukung perkembangan otak dan mencegah penyakit-penyakit di usia lanjut.
+\n\nJadi, gizi bukan sekkedar berat badan namun KUALITAS makanan.
+\n\nMisalnya apakah baik jika anak gendut namun kebanyakan karbohidrat?
+\n\nTentu tidak baik karena hal tersebut meningkatkan risiko diabetes di kemudian hari.
+\n\nApakah aman jika berat badan cukup namun kurang protein/ kebanyakan susu?
+\n\nTentu tidak aman karena hal tersebut bisa menyebabkan defisiensi besi, yang berakibat menurunnya daya imunitas dan kecerdasan."
+
+  utter_pertanyaan_keenambelas:
+  - text: "Saat anak gagal tumbuh di periode ASI (0-6 bulan), lakukanlah 2 hal yaitu:
+\n\ncukupkan gizinya dengan PASI (pengganti ASI) dan lakukan relaktasi (mengembalikan/meningkatkan produksi ASI).
+\n\nPASI (sufor) dapat diberikan seperti memberikan ASI perah yaitu perporsi sekitar 20 mlx berat badan dan setiap 8-12x sehari.
+\n\nJangan lupa merangsang produksi ASI sehingga nantinya, kebutuhan PASI akan menurun seiring dengan bertambahnya produksi ASI."
+
+  utter_pertanyaan_ketujuhbelas:
+  - text: "Pencegahan anemia pada ibu hamil harus dilakukan sebelum hamil.
+\n\nJika anemia sudah terjadi saat hamil maka kondisi ini sudah terlambat, sehingga harus diatasi segera,
+\n\npada umumnya dokter kandungan akan memberikan suplemen besi tergantung pada derajat keparahan defisiensinya (dapat berupa infus zat besi, suplemen minum).
+\n\nNamun perlu diingat, penyebab utama defisiensi besi adalah asupan besi yang kurang
+\n\nsehingga wajib mengubah pola makan sehingga tidak terulang di saat fase menyusui."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
