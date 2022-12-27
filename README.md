@@ -2,7 +2,8 @@
 Nama : Wulan Nur Afifah 
 NIM : 20.01.53.0035 
 
-Untuk mencoba menjalankan Chatbot Stunting Copy bagian nlu.yml, domain.yml, dan stories.yml secara bersamaan kemudian dirun ulang mulai dari
+Untuk mencoba menjalankan Chatbot Stunting Copy bagian nlu.yml, domain.yml, dan stories.yml secara bersamaan kemudian dirun ulang mulai dari:
+
 model_path = rasa.train(domain, config, [training_files], output)
 
 print(model_path)
