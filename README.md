@@ -1,5 +1,6 @@
 # Chatbot-Stunting-20.01.53.0001
 Nama : Wulan Nur Afifah 
+
 NIM : 20.01.53.0035 
 
 Untuk mencoba menjalankan Chatbot Stunting Copy bagian nlu.yml, domain.yml, dan stories.yml secara bersamaan kemudian dirun ulang mulai dari:
